@@ -1,9 +1,82 @@
-<!doctype html>
-    <head>
-    
-    </head>
-    
-    <body>
-        <h1>dddddddddd</h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/getClass.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h2>音乐播放器</h2>
+    	<div class="left">
+    		<div class="song-info" id="div1"></div>
+    		<div class="song">
+    			<div class="song-cover">
+    			    <img src="img/1.jpg">
+    		    </div>
+    		    <div class="song-lyric">我是歌词</div>
+    		</div>
+    		
+    		<div class="song-progress">
+	            <div class="vol">
+	                <i class="vol-icon"></i>
+	                <i class="muted"></i>
+		            <div class="vol-progress">
+		                <div class="vols vol-click1"></div>
+		                <div class="vols vol-click2"></div>
+		                <div class="vols vol-click3"></div>
+		                <div class="vols vol-click4"></div>
+		                <div class="vols vol-click5"></div>
+		                <div id="v-pro"></div>
+		            	<span class="vol-btn"></span>
+		            </div>
+	            </div>
+	            <div class="time">
+	                <span class="cur-time"></span>
+                    <span class="total-time"></span>
+	            </div>
+	            <div class="wrap-progress">
+	                <div id="s-pro"></div>
+		            <span class="btn"></span>
+	            </div>
+	            <i class="download"></i>
+    		</div>
+    		<div class="song-control">
+    		    <i class="like"></i>
+    		    <i class="prev"></i>
+    		    <i class="play"></i>
+    			<i class="next"></i>
+    			<i class="loop"></i>
+    			<i class="order"></i>
+    		</div>
+    	</div>
+    	<div class="right">
+    		<div class="search">
+    		    <input type="text" value="在此搜索" name="song-search">
+    		    <button class="search-btn"></button>				
+    		</div>
+    		<div class="song-list">
+    			<ol>
+    				<li dataSrc="music/1.mp3" class="active"><span>1.</span><a href="javascript:void(0)">五月天 - 如果我们不曾相遇</a></li>
+    				<li dataSrc="music/2.mp3"><span>2.</span><a href="javascript:void(0)">林俊杰 - 美人鱼</a></li>
+    				<li dataSrc="music/3.mp3"><span>3.</span><a href="javascript:void(0)">泥鳅Niko - 半壶纱</a></li>
+    				<li dataSrc="music/4.mp3"><span>4.</span><a href="javascript:void(0)">江南诚 鸦青 - 忆似故人曲</a></li>
+    				<li dataSrc="music/5.mp3"><span>5.</span><a href="javascript:void(0)">AY楊佬叁 GumJ Kc OG - 不予理解</a></li>
+    				<li dataSrc="music/6.mp3"><span>6.</span><a href="javascript:void(0)">逃跑计划 - 夜空中最亮的星</a></li>
+    				<li dataSrc="music/7.mp3"><span>7.</span><a href="javascript:void(0)">HITA 小义学长 - 情藏</a></li>
+    				<li dataSrc="music/8.mp3"><span>8.</span><a href="javascript:void(0)">RaJor - 国境四方</a></li>
+    				<li dataSrc="music/9.mp3"><span>9.</span><a href="javascript:void(0)">茶理理 - 裏切りの夕焼け</a></li>
+    				<li dataSrc="music/10.mp3"><span>10.</span><a href="javascript:void(0)">李承铉 赵泳鑫 - 遇见未知的自己</a></li>
+    				<li dataSrc="music/11.mp3"><span>11.</span><a href="javascript:void(0)">邓福如 - 星空恋曲</a></li>
+    				<li dataSrc="music/12.mp3"><span>12.</span><a href="javascript:void(0)">王铮亮 - Together</a></li>
+    			</ol>
+    		</div>
+    	</div>
+    </div>
+    <audio id="audio" src="music/1.mp3">
+	</audio>
+	<script type="text/javascript" src="js/main2.js"></script>
+</body>
 </html>

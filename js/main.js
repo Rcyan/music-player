@@ -59,6 +59,9 @@ $(".next").click(function(){
     listState();
     oProgress();
 });
+function  next(){
+
+}
 
 //4.上一曲
 $(".prev").click(function(){
@@ -139,16 +142,27 @@ var vols=$(".vols");
 $("#v-pro").css("width","32px");
 $(".vol-btn").css("left","32px");
 oAudio.volume=0.4;
-
 //是否静音
 $(".vol-icon").click(function(){
 	if(vol=="isMuted"){
 		oAudio.muted=true;
 		vol="notMoted";
+		$("#v-pro").css("width",0);
+        $(".vol-btn").css("left",0);
 		$(".muted").css("display","block");
 	}else{
         oAudio.muted=false;
         vol="isMuted";
+        var curVol=oAudio.volume;
+        if(curVol==1){
+			$("#v-pro").css("width","72px");
+	        $(".vol-btn").css("left","72px");
+        }else{
+        	for(var i=0;i<vols.length-1;i++){
+	        	$("#v-pro").css("width",curVol/2*160+"px");
+	            $(".vol-btn").css("left",curVol/2*160+"px");
+            }
+        }
         $(".muted").css("display","none");
 	}  
 });

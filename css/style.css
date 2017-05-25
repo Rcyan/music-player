@@ -107,7 +107,7 @@ h2{
 	display: inline-block;
 	height: 16px;
 	width: 16px;
-	background:url(../img/vol.png);
+	background:url(../img/sprite.png) no-repeat -35px -80px;
 	position: absolute;
 	left: 40px;
 }
@@ -176,8 +176,8 @@ h2{
 }
 .left i{
 	display: inline-block;
-	height: 48px;
-	width: 48px;
+	height: 40px;
+	width: 40px;
 	position: absolute;
 	top: 10px;
 }
@@ -187,7 +187,7 @@ h2{
 .left .song-progress .download{
 	right: 54px;
 	top: 5px;
-	background: url(../img/download.png) no-repeat;
+	background: url(../img/sprite.png) no-repeat -158px -1px;
 }
 .left .song-control .like{
 	left: 50px;
@@ -195,7 +195,7 @@ h2{
 }
 .left .song-control .prev{
 	left: 166px;
-	background: url(../img/prev.png) no-repeat;   
+	background: url(../img/sprite.png) no-repeat 2px -40px;   
 }  
 .left .song-control .play{
 	left: 215px;
@@ -209,15 +209,15 @@ h2{
 }
 .left .song-control .next{
 	left: 265px;
-	background: url(../img/next.png) no-repeat;   
+	background: url(../img/sprite.png) no-repeat -112px -40px;   
 }         
 .left .song-control .order{
 	right:50px;
-	background: url(../img/order.png) no-repeat;
+	background: url(../img/sprite.png) no-repeat -115px 0px ;
 }
 .left .song-control .loop{
 	right:50px;
-	background: url(../img/loop.png) no-repeat;
+	background: url(../img/sprite.png) no-repeat -75px 0px;
 	display: none;
 } 
 .right{
@@ -248,7 +248,7 @@ h2{
 	right:  -10px;
 	top: 9px;
 	position: absolute;
-	background: url(../img/search.png) no-repeat;
+	background: url(../img/sprite.png) no-repeat 0 -80px;
 	border: none;  
 }
 .song-list{
@@ -278,4 +278,3 @@ h2{
 	margin-right: 20px;
 	color:rgba(223,221,221,0.6);
 }
-

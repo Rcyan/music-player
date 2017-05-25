@@ -13,22 +13,22 @@ $(".play").click(function(){
 	var playedS=Math.floor((playedTime*350)/allTime)+"px";
     var time=Math.ceil((allTime-playedTime)*350000/allTime);
 	if(mark==0){
-		oPlay();
+	oPlay();
         showSongInfo();
+	listState();
+	showSongCover();
         $("#s-pro").animate({width:"350"},allTime,"linear");
         $(".wrap-progress .btn").animate({left:"350"},allTime,"linear");
 	}else{
-		oPause();
-		$("#s-pro").stop();
-		$("#s-pro").css("width",playedS); 
+	oPause();
+	$("#s-pro").stop();
+	$("#s-pro").css("width",playedS); 
         $(".wrap-progress .btn").stop();
         $(".wrap-progress .btn").css("left",playedS);
         clearInterval(timer);
         showSongCover();
         listState();
 	}
-    showSongCover();
-    listState();
 }) 	
 
 //2.列表音乐

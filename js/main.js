@@ -59,10 +59,6 @@ $(".next").click(function(){
     listState();
     oProgress();
 });
-function  next(){
-
-}
-
 //4.上一曲
 $(".prev").click(function(){
 	if(index>0){

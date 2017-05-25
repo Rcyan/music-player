@@ -1,3 +1,4 @@
+window.onload=function(){
 //初始状态
 var oAudio=$("#audio").get(0);
 var mark=0;//当前播放状态为暂停
@@ -279,4 +280,6 @@ function times(){
         $(".cur-time").text("0"+curMin+":"+curSe);
 		$(".total-time").text("/"+"0"+totalMin+":"+totalSe);	
 	},1);
+}
+
 }

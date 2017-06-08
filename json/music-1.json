@@ -1,0 +1,134 @@
+fn({
+    "list":[
+        {
+            "index":"1",
+            "title": "The Dawn",
+            "singer":"Dreamtale",
+            "url": "http:\/\/mr1.doubanio.com\/d087a35554d58d9dc04485c9b92d423f\/0\/fm\/song\/p749701_128k.mp3",
+            "picture": "https://img3.doubanio.com\/lpic\/s3346933.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"2",
+            "title": "纪念",
+            "singer":"蔡健雅",
+            "url": "http:\/\/mr3.doubanio.com\/a2013438e5143ca444dac665bd26f02f\/0\/fm\/song\/p348207_128k.mp3",
+            "picture": "https://img3.doubanio.com\/lpic\/s3202122.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"3",
+            "title": "吴哥窟",
+            "singer":"吴雨霏",
+            "url": "http:\/\/mr3.doubanio.com\/1b72a60dc05190825c98b1d4abe3ed12\/0\/fm\/song\/p1753658_128k.mp3",
+            "picture": "https://img3.doubanio.com\/lpic\/s6994534.jpg",
+            "lyric":"http://musicdata.baidu.com/data2/lrc/28148084/28148084.lrc"
+
+        },
+        {    
+            "index":"4",
+            "title": "世界が終るまでは…",
+            "singer":"WANDS",
+            "url": "http:\/\/mr1.doubanio.com\/b4a85a6ddeef999221196c4763e7064e\/1\/fm\/song\/p82443_128k.mp3",
+            "picture":"https://img5.doubanio.com\/lpic\/s3791486.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"5",
+            "title": "越单纯，越幸福",
+            "singer":"王筝",
+            "url":"http:\/\/mr1.doubanio.com\/77e8ea3b8f4131a209b94f901d83baea\/0\/fm\/song\/p2235174_128k.mp3",
+            "picture": "https://img1.doubanio.com\/img\/fmadmin\/large\/31618.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"6",
+            "title": "围城",
+            "singer":"A-Lin",
+            "url": "http:\/\/mr3.doubanio.com\/692c02ed99089123b0354d75d565b48e\/0\/fm\/song\/p1880014_128k.mp3",
+            "picture":"https://img1.doubanio.com\/lpic\/s24562228.jpg",
+            "lyric":""
+
+        },
+        {    
+            "index":"7",
+            "title": "龙鳞",
+            "singer":"张杰",
+            "url": "http:\/\/mr3.doubanio.com\/31c145c26e12e73b204d66d045d3a7ed\/0\/fm\/song\/p1451105_128k.mp3",
+            "picture":"https://img3.doubanio.com\/lpic\/s4144975.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"8",
+            "title": "秋天",
+            "singer":"苏醒",
+            "url": "http:\/\/mr3.doubanio.com\/9ea3ed1d9d7b921ab5ce06a61478ec30\/0\/fm\/song\/p348485_128k.mp3",
+            "picture":"https://img3.doubanio.com\/lpic\/s2823004.jpg",
+            "lyric":""
+
+        },
+        {    
+            "index":"9",
+            "title": "钗头凤",
+            "singer":"薛之谦",
+            "url": "http:\/\/mr1.doubanio.com\/9cf06fed93cbac250a42ac26cc1aa90b\/1\/fm\/song\/p971480_128k.mp3",
+            "picture":"https://img1.doubanio.com\/lpic\/s2174238.jpg",
+            "lyric":""
+
+        },
+        {    
+            "index":"10",
+            "title": "我很忙",
+            "singer":"A-Lin",
+            "url": "http:\/\/mr3.doubanio.com\/7b215696482d63710a2a69970024ec0f\/0\/fm\/song\/p1772379_128k.mp3",
+            "picture":"https://img3.doubanio.com\/lpic\/s6998080.jpg",
+            "lyric":""
+
+        },
+        {    
+            "index":"11",
+            "title": "Breaking Free",
+            "singer":"Zac Efron",
+            "url": "http:\/\/mr1.doubanio.com\/6f24e37f6bea0f14e7e318438f84ba88\/0\/fm\/song\/p647023_128k.mp3",
+            "picture":"https://img3.doubanio.com\/lpic\/s2658915.jpg",
+            "lyric":""
+
+        },
+        {    
+            "index":"12",
+            "title": "有你陪着我",
+            "singer":"安又琪",
+            "url": "http:\/\/mr1.doubanio.com\/edd4721f56b893662e4c27ce1fec42ef\/0\/fm\/song\/p184501_128k.mp3",
+            "picture":"https://img1.doubanio.com\/lpic\/s3586648.jpg",
+            "lyric":""
+
+        },
+        {    
+            "index":"13",
+            "title":"忘了我",
+            "singer":"杨宗纬",
+            "url": "http:\/\/mr1.doubanio.com\/fff3c8895945e21a7c925ba59ac42d2a\/0\/fm\/song\/p1898963_128k.mp3",
+            "picture":"https://img3.doubanio.com\/lpic\/s25968295.jpg",
+            "lyric":""
+
+        },
+        {    
+            "index":"14",
+            "title": "Say Hello",
+            "singer":"Rosie Thomas",
+            "url": "http:\/\/mr3.doubanio.com\/3850661d11ecf10ef07be44df6ed754e\/0\/fm\/song\/p377539_128k.mp3",
+            "picture":"https://img1.doubanio.com\/lpic\/s2674348.jpg",
+            "lyric":""
+
+        },
+        {    
+            "index":"15",
+            "title": "疯人愿",
+            "singer":"魏晨",
+            "url": "http:\/\/mr3.doubanio.com\/d3196e38a0b0badcdb70bd27ea8f90e1\/1\/fm\/song\/p1635351_128k.mp3",
+            "picture":"https://img1.doubanio.com\/lpic\/s4418048.jpg",
+            "lyric":""
+
+        }
+    ] 
+});

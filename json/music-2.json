@@ -1,0 +1,165 @@
+fn1({
+    "list":[
+        {
+            "index":"16",
+            "title": "温柔累了",
+            "singer":"A-Lin",
+            "url": "http:\/\/mr3.doubanio.com\/0292a3a7a70369fcc638a8bb03a79942\/0\/fm\/song\/p1880016_128k.mp3",
+            "picture": "https://img1.doubanio.com\/lpic\/s24562228.jpg",
+            "lyric":""
+        },
+        {   
+            "index":"17",
+            "title": "沉淀",
+            "singer":"李霄云",
+            "url": "http:\/\/mr3.doubanio.com\/75d9803e04d90df234de6655a4c009b9\/1\/fm\/song\/p1530299_128k.mp3",
+            "picture": "https://img3.doubanio.com\/lpic\/s4413761.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"18",
+            "title": "爱上未来的你",
+            "singer":"潘玮柏",
+            "url": "http:\/\/mr1.doubanio.com\/ce77136598ba0265553423e52e2925fb\/0\/fm\/song\/p1393361_128k.mp3",
+            "picture": "https://img1.doubanio.com\/lpic\/s3174027.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"19",
+            "title": "小丑鱼",
+            "singer":"罗志祥",
+            "url": "http:\/\/mr3.doubanio.com\/27443a8718a5b8721aa47b897e91e7b6\/1\/fm\/song\/p1035769_128k.mp3",
+            "picture": "https://img3.doubanio.com\/lpic\/s4712742.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"20",
+            "title": "看月亮爬上来",
+            "singer":"张杰",
+            "url": "http:\/\/mr3.doubanio.com\/0bebf34b78c88c6bb9b10ad4714b5ddb\/0\/fm\/song\/p1451099_128k.mp3",
+            "picture": "https://img3.doubanio.com\/lpic\/s4144975.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"21",
+            "title": "天空",
+            "singer":"魏如昀",
+            "url": "http:\/\/mr3.doubanio.com\/1a384b319abc6e5afd8d62874e56c2ef\/0\/fm\/song\/p179376_128k.mp3",
+            "picture": "https://img5.doubanio.com\/lpic\/s6682686.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"22",
+            "title": "天空",
+            "singer":"魏如昀",
+            "url": "http:\/\/mr3.doubanio.com\/1a384b319abc6e5afd8d62874e56c2ef\/0\/fm\/song\/p179376_128k.mp3",
+            "picture": "https://img5.doubanio.com\/lpic\/s6682686.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"23",
+            "title": "天空",
+            "singer":"魏如昀",
+            "url": "http:\/\/mr3.doubanio.com\/1a384b319abc6e5afd8d62874e56c2ef\/0\/fm\/song\/p179376_128k.mp3",
+            "picture": "https://img5.doubanio.com\/lpic\/s6682686.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"24",
+            "title": "天空",
+            "singer":"魏如昀",
+            "url": "http:\/\/mr3.doubanio.com\/1a384b319abc6e5afd8d62874e56c2ef\/0\/fm\/song\/p179376_128k.mp3",
+            "picture": "https://img5.doubanio.com\/lpic\/s6682686.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"25",
+            "title": "天空",
+            "singer":"魏如昀",
+            "url": "http:\/\/mr3.doubanio.com\/1a384b319abc6e5afd8d62874e56c2ef\/0\/fm\/song\/p179376_128k.mp3",
+            "picture": "https://img5.doubanio.com\/lpic\/s6682686.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"26",
+            "title": "天空",
+            "singer":"魏如昀",
+            "url": "http:\/\/mr3.doubanio.com\/1a384b319abc6e5afd8d62874e56c2ef\/0\/fm\/song\/p179376_128k.mp3",
+            "picture": "https://img5.doubanio.com\/lpic\/s6682686.jpg",
+            "lyric":""
+
+        },
+        {    
+            "index":"27",
+            "title": "天空",
+            "singer":"魏如昀",
+            "url": "http:\/\/mr3.doubanio.com\/1a384b319abc6e5afd8d62874e56c2ef\/0\/fm\/song\/p179376_128k.mp3",
+            "picture": "https://img5.doubanio.com\/lpic\/s6682686.jpg",
+            "lyric":""
+        },
+        {    
+            "index":"28",
+            "title": "天空",
+            "singer":"魏如昀",
+            "url": "http:\/\/mr3.doubanio.com\/1a384b319abc6e5afd8d62874e56c2ef\/0\/fm\/song\/p179376_128k.mp3",
+            "picture": "https://img5.doubanio.com\/lpic\/s6682686.jpg",
+            "lyric":""
+
+        },
+        {    
+            "index":"29",
+            "title": "天空",
+            "singer":"魏如昀",
+            "url": "http:\/\/mr3.doubanio.com\/1a384b319abc6e5afd8d62874e56c2ef\/0\/fm\/song\/p179376_128k.mp3",
+            "picture": "https://img5.doubanio.com\/lpic\/s6682686.jpg",
+            "lyric":""
+
+        },
+        {    
+            "index":"30",
+            "title": "天空",
+            "singer":"魏如昀",
+            "url": "http:\/\/mr3.doubanio.com\/1a384b319abc6e5afd8d62874e56c2ef\/0\/fm\/song\/p179376_128k.mp3",
+            "picture": "https://img5.doubanio.com\/lpic\/s6682686.jpg",
+            "lyric":""
+
+        },
+        {    
+            "index":"31",
+            "title": "天空",
+            "singer":"魏如昀",
+            "url": "http:\/\/mr3.doubanio.com\/1a384b319abc6e5afd8d62874e56c2ef\/0\/fm\/song\/p179376_128k.mp3",
+            "picture": "https://img5.doubanio.com\/lpic\/s6682686.jpg",
+            "lyric":""
+
+        },
+        {
+            "index":"32",
+            "title": "The Dawn",
+            "singer":"Dreamtale",
+            "url": "http:\/\/mr1.doubanio.com\/d087a35554d58d9dc04485c9b92d423f\/0\/fm\/song\/p749701_128k.mp3",
+            "avatar":"https://img3.doubanio.com\/img\/fmadmin\/large\/908330.jpg"
+        },
+        {
+            "index":"33",
+            "title": "The Dawn",
+            "singer":"Dreamtale",
+            "url": "http:\/\/mr1.doubanio.com\/d087a35554d58d9dc04485c9b92d423f\/0\/fm\/song\/p749701_128k.mp3",
+            "avatar":"https://img3.doubanio.com\/img\/fmadmin\/large\/908330.jpg"
+        },
+        {
+            "index":"34",
+            "title": "The Dawn",
+            "singer":"Dreamtale",
+            "url": "http:\/\/mr1.doubanio.com\/d087a35554d58d9dc04485c9b92d423f\/0\/fm\/song\/p749701_128k.mp3",
+            "avatar":"https://img3.doubanio.com\/img\/fmadmin\/large\/908330.jpg"
+        },
+        {
+            "index":"35",
+            "title": "The Dawn",
+            "singer":"Dreamtale",
+            "url": "http:\/\/mr1.doubanio.com\/d087a35554d58d9dc04485c9b92d423f\/0\/fm\/song\/p749701_128k.mp3",
+            "avatar":"https://img3.doubanio.com\/img\/fmadmin\/large\/908330.jpg"
+        }
+    ] 
+});

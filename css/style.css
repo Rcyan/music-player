@@ -21,7 +21,7 @@ ol{
 }
 h2{
 	text-align: center;
-	margin-bottom: 20px;
+	margin-top: -10px;
 }
 .left{
 	width: 600px;
@@ -59,6 +59,9 @@ h2{
 	width: 450px;
     height: 375px;
 }
+.left .song-cover{
+	top: 15px;
+}
 .left .song-cover img{
     width: 200px;
     height: 200px;
@@ -67,22 +70,52 @@ h2{
     top: 30px;
     position: absolute;
 }
+.left .look-lrc{
+	left: 180px;
+    top: 155px;
+	width: 200px;
+    height: 200px;
+    border-radius:100px;
+	z-index: 2000;
+	position: absolute;
+	line-height: 200px;
+	text-align: center;
+}
+.left .look-lrc:hover{
+	cursor:pointer;
+}
 .left .song-lyric{
 	width: 360px;
-    height: 375px;
+    height: 320px;
     text-align: center;
     position: absolute;
-    left: 80px;
+    left: 90px;
     top: 100px;
     display: none;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.left .song-lyric::-webkit-scrollbar{
+	width: 4px;
+	border-radius: 3px;
+	background: rgba(0,0,0,0.5);
+}
+.left .song-lyric::-webkit-scrollbar-thumb{
+    border-radius:3px;
+    background:rgba(223,221,221,0.6); 
 }
 .left .song-progress,.left .song-control{
 	width: 500px;
     height: 50px;
-    margin:0px auto;
     margin-bottom:10px;
     line-height: 60px;
     position: relative;
+}
+.left .song-progress{
+	margin:-45px auto;
+}
+.left .song-control{
+	margin: 60px auto;
 }
 .left .song-progress .wrap-progress{
 	width: 340px;
@@ -149,13 +182,13 @@ h2{
 	height:4px;
 	width: 0;
 	border-radius: 2px;
-	background: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,0.5);
 }
 .left .song-progress #s-pro{
 	height:9px;
 	width: 0;
 	border-radius: 4px;
-	background: rgba(0,0,0,0.8); 
+	background: rgba(0,0,0,0.5); 
 }
 .time .total-time,.time .cur-time{
 	display: block;
@@ -189,6 +222,11 @@ h2{
 	top: 5px;
 	background: url(../img/sprite.png) no-repeat -158px -1px;
 }
+.left .song-progress .download a{
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+}
 .left .song-control .like{
 	left: 50px;
 	background: url(../img/like.png) no-repeat;
@@ -212,11 +250,11 @@ h2{
 	background: url(../img/sprite.png) no-repeat -112px -40px;   
 }         
 .left .song-control .order{
-	right:50px;
+	right:54px;
 	background: url(../img/sprite.png) no-repeat -115px 0px ;
 }
 .left .song-control .loop{
-	right:50px;
+	right:54px;
 	background: url(../img/sprite.png) no-repeat -75px 0px;
 	display: none;
 } 
@@ -248,7 +286,7 @@ h2{
 	right:  -10px;
 	top: 9px;
 	position: absolute;
-	background: url(../img/sprite.png) no-repeat 0 -80px;
+	background: url(../img/search.png) no-repeat;
 	border: none;  
 }
 .song-list{
@@ -257,11 +295,25 @@ h2{
 	height: 500px;
 	margin:-20px auto;
 }
+ol li{
+	overflow:hidden;
+}
 .right ol{
-	display: inline-block;
+	margin: 50px 0;
 	width: 550px;
-	height: 460px;
-	padding:20px 0px;
+	height: 430px;
+    background: transparent;
+    overflow-y: auto;
+    display: block;
+}
+.right ol::-webkit-scrollbar {
+  width: 4px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 2px;
+}
+.right ol::-webkit-scrollbar-thumb{
+  border-radius:20px;
+  background: rgba(223,221,221,0.6);
 }
 .right ol li{
 	height: 40px;
@@ -278,3 +330,15 @@ h2{
 	margin-right: 20px;
 	color:rgba(223,221,221,0.6);
 }
+.no-result{
+	width: 550px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color:rgba(223,221,221,0.6);
+	margin: 50px 0;
+}
+.load-more{
+	margin:0 225px;
+}
+

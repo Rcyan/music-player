@@ -340,12 +340,13 @@ $(".look-lrc").click(function(){
 	$(".song-lyric").css("display","block");
 });
 //获取歌词地址
+window.onload=function(){
 var lyricAddress=$(".active").children("span:eq(2)").text();
 //获取lyricAddress内容并赋值
 htmlobj=$.ajax({url:lyricAddress,async:false}); //获取test1.txt内容并赋值
 lyric=htmlobj.responseText;
 parseLyric(lyric);//调用显示歌词的函数
-
+}
 function parseLyric(text) {
     oLyric= text.split('\r\n'); //先按行分割
     var rows = oLyric.length; //获取歌词行数

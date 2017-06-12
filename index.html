@@ -88,7 +88,7 @@ function oSearch(){
 
     $.ajax({
     type:"get",
-    url:"http://sug.music.baidu.com/info/suggestion",
+    url:"https://sug.music.baidu.com/info/suggestion",
     dataType: "jsonp",
     data:{
         word: keyword,
@@ -116,7 +116,7 @@ function oSearch(){
         function analysis(songid,n){
         $.ajax({
             type: "get",
-            url: "http://music.baidu.com/data/music/fmlink",
+            url: "https://music.baidu.com/data/music/fmlink",
             dataType: "jsonp",
             data: {
             songIds: songid,

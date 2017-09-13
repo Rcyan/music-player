@@ -1,5 +1,5 @@
 # music-player
 一个简洁的音乐播放器
 
-!["music"](https://rcyan.github.io/music/img/music.jpg)
+!["music"](https://github.com/Rcyan/music-player/blob/master/img/music.jpg)
  

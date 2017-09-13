@@ -5,6 +5,7 @@
 body{
 	background:rgba(58,50,38,1);
 	color: rgba(223,221,221,0.6);
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
 }
 a{
 	text-decoration: none;
